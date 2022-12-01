@@ -1,0 +1,44 @@
+/* Altair Normal */
+@font-face {
+  font-family: 'Font-Altair';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../src/fonts/Altair-Regular-trial.ttf);
+}
+
+/* Altair Bold */
+@font-face {
+  font-family: 'Font-Altair';
+  font-style: bold;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../src/fonts/Altair-Bold-trial.ttf);
+}
+
+/* Altair Extra-Bold */
+@font-face {
+  font-family: 'Font-Altair';
+  font-style: bold;
+  font-weight: 900;
+  font-display: swap;
+  src: url(../src/fonts/Altair-Extrabold-trial.ttf);
+}
+
+/* Futura Normal */
+@font-face {
+  font-family: 'Font-Futura';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../src/fonts/Futura-Book-font.ttf);
+}
+
+/* Futura Bold */
+@font-face {
+  font-family: 'Font-Futura';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../src/fonts/Futura-Heavy-font.ttf);
+}
