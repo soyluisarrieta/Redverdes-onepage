@@ -1,20 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js,php}"],
+  content: ["./*.{html,js,php}","./components/**/*.{html,js,php}"],
   theme: {
 
     // Container
     container: {
       screens: {
-        xl: "1234px",
+        xl: "1024px",
       },
       center: true,
       padding: {
         DEFAULT: '1rem',
-        sm: '2rem',
-        lg: '4rem',
-        xl: '5rem',
-        '2xl': '6rem',
+        xl: '0rem',
       },
     },
 

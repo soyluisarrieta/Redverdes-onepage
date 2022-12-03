@@ -4,7 +4,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(../src/fonts/Altair-Regular-trial.ttf);
+  src: url(../fonts/Altair-Regular-trial.ttf);
 }
 
 /* Altair Bold */
@@ -13,7 +13,7 @@
   font-style: bold;
   font-weight: 700;
   font-display: swap;
-  src: url(../src/fonts/Altair-Bold-trial.ttf);
+  src: url(../fonts/Altair-Bold-trial.ttf);
 }
 
 /* Altair Extra-Bold */
@@ -22,7 +22,7 @@
   font-style: bold;
   font-weight: 900;
   font-display: swap;
-  src: url(../src/fonts/Altair-Extrabold-trial.ttf);
+  src: url(../fonts/Altair-Extrabold-trial.ttf);
 }
 
 /* Futura Normal */
@@ -31,7 +31,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(../src/fonts/Futura-Book-font.ttf);
+  src: url(../fonts/Futura-Book-font.ttf);
 }
 
 /* Futura Bold */
@@ -40,5 +40,5 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(../src/fonts/Futura-Heavy-font.ttf);
+  src: url(../fonts/Futura-Heavy-font.ttf);
 }

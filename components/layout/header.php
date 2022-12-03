@@ -1,18 +1,18 @@
 <!-- Desktop menu -->
 <div class="container">
   <nav class="font-altair relative md:px-8 px-4 py-4 flex justify-between items-center">
-    <ul class="hidden lg:flex lg:items-center lg:w-auto lg:space-x-6 uppercase text-center">
+    <ul class="hidden text-xs lg:flex lg:items-center lg:w-auto lg:space-x-6 uppercase text-center">
       <li>
-        <a class="text-sm text-gray-500 hover:text-gray-500" href="#">Inicio</a>
+        <a class="text-gray-500 hover:text-palette-primary" href="#">Inicio</a>
       </li>
       <li>
-        <a class="text-sm text-gray-500 hover:text-gray-500" href="#">Conocenos</a>
+        <a class="text-gray-500 hover:text-palette-primary" href="#">Conocenos</a>
       </li>
       <li>
-        <a class="text-sm text-gray-500 hover:text-gray-500" href="#">Situación actual</a>
+        <a class="text-gray-500 hover:text-palette-primary" href="#">Situación actual</a>
       </li>
       <li>
-        <a class="text-sm text-gray-500 hover:text-gray-500" href="#">Apoyan</a>
+        <a class="text-gray-500 hover:text-palette-primary" href="#">Apoyan</a>
       </li>
     </ul>
 
@@ -171,22 +171,22 @@
 
     <!-- Button mobile menu -->
     <div class="lg:hidden">
-      <button class="navbar-burger flex items-center text-palette-primary focus:text-palette-primary-h p-3">
+      <button class="navbar-burger flex items-center text-palette-primary-l hover:text-palette-primary-h p-3">
         <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
           <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
         </svg>
       </button>
     </div>
 
-    <ul class="hidden lg:flex lg:items-center lg:w-auto lg:space-x-6 uppercase">
+    <ul class="hidden text-xs lg:flex lg:items-center lg:w-auto lg:space-x-6 uppercase">
       <li>
-        <a class="text-sm text-gray-500 hover:text-gray-500" href="#">Beneficios</a>
+        <a class="text-gray-500 hover:text-palette-primary" href="#">Beneficios</a>
       </li>
       <li>
-        <a class="text-sm text-gray-500 hover:text-gray-500" href="#">Contacto</a>
+        <a class="text-gray-500 hover:text-palette-primary" href="#">Contacto</a>
       </li>
       <li>
-        <a class="hidden lg:inline-block py-2 px-6 bg-palette-primary hover:bg-palette-primary-h active:bg-palette-primary-l text-sm text-white rounded-full transition duration-150" href="#">Unirme</a>
+        <a class="hidden lg:inline-block btn-solid" href="#">Unirme</a>
       </li>
     </ul>
   </nav>
@@ -275,7 +275,7 @@
             c0.49,0.25,0.86,0.68,1.04,1.2c0.29,0.84,0.42,1.72,0.38,2.61c0.04,0.89-0.11,1.79-0.43,2.62c-0.21,0.5-0.6,0.91-1.1,1.15
             c-0.21,0.1-0.44,0.17-0.67,0.2c-0.26,0.04-0.52,0.06-0.78,0.06c-0.28,0-0.57-0.02-0.85-0.07c-0.24-0.04-0.48-0.11-0.69-0.23
             c-0.48-0.26-0.85-0.69-1.04-1.2c-0.29-0.84-0.42-1.72-0.39-2.61C115.57,11.53,115.72,10.64,116.04,9.8L116.04,9.8z" />
-            <path fill="#125151" d="M136.45,15.56c0.14-0.29,0.21-0.61,0.21-0.94c0.01-0.31-0.04-0.61-0.15-0.9c-0.17-0.46-0.5-0.83-0.93-1.06
+          <path fill="#125151" d="M136.45,15.56c0.14-0.29,0.21-0.61,0.21-0.94c0.01-0.31-0.04-0.61-0.15-0.9c-0.17-0.46-0.5-0.83-0.93-1.06
               c-0.4-0.21-0.83-0.35-1.27-0.43c-0.28-0.06-0.47-0.1-0.57-0.13l-0.32-0.08l-0.5-0.12c-0.23-0.06-0.46-0.12-0.69-0.19
               c-0.2-0.06-0.39-0.14-0.57-0.23c-0.15-0.08-0.28-0.18-0.4-0.3c-0.24-0.29-0.36-0.66-0.33-1.04c-0.01-0.5,0.23-0.97,0.64-1.26
               c0.6-0.39,1.3-0.57,2.01-0.53c0.34,0,0.67,0.03,1,0.08c0.49,0.08,0.98,0.2,1.46,0.36l0.05-0.49c-0.52-0.19-1.06-0.33-1.6-0.43
@@ -355,27 +355,27 @@
     <div>
       <ul>
         <li class="mb-1">
-          <a class="block p-4 text-sm text-gray-400 hover:bg-palette-primary/5 hover:text-palette-primary-h active:text-palette-primary-l rounded" href="#">Inicio</a>
+          <a class="block p-4 text-sm text-gray-500 hover:bg-palette-primary/5 hover:text-palette-primary-h active:text-palette-primary-l rounded" href="#">Inicio</a>
         </li>
         <li class="mb-1">
-          <a class="block p-4 text-sm text-gray-400 hover:bg-palette-primary/5 hover:text-palette-primary-h active:text-palette-primary-l rounded" href="#">Conocenos</a>
+          <a class="block p-4 text-sm text-gray-500 hover:bg-palette-primary/5 hover:text-palette-primary-h active:text-palette-primary-l rounded" href="#">Conocenos</a>
         </li>
         <li class="mb-1">
-          <a class="block p-4 text-sm text-gray-400 hover:bg-palette-primary/5 hover:text-palette-primary-h active:text-palette-primary-l rounded" href="#">Situación actual</a>
+          <a class="block p-4 text-sm text-gray-500 hover:bg-palette-primary/5 hover:text-palette-primary-h active:text-palette-primary-l rounded" href="#">Situación actual</a>
         </li>
         <li class="mb-1">
-          <a class="block p-4 text-sm text-gray-400 hover:bg-palette-primary/5 hover:text-palette-primary-h active:text-palette-primary-l rounded" href="#">Apoyan</a>
+          <a class="block p-4 text-sm text-gray-500 hover:bg-palette-primary/5 hover:text-palette-primary-h active:text-palette-primary-l rounded" href="#">Apoyan</a>
         </li>
         <li class="mb-1">
-          <a class="block p-4 text-sm text-gray-400 hover:bg-palette-primary/5 hover:text-palette-primary-h active:text-palette-primary-l rounded" href="#">Beneficios</a>
+          <a class="block p-4 text-sm text-gray-500 hover:bg-palette-primary/5 hover:text-palette-primary-h active:text-palette-primary-l rounded" href="#">Beneficios</a>
         </li>
       </ul>
     </div>
 
     <div class="mt-auto">
       <div class="pt-6 uppercase tracking-wider">
-        <a class="block px-4 py-3 mb-3 leading-loose text-xs text-center leading-none text-gray-400 hover:text-gray-700 bg-gray-50 hover:bg-gray-100 rounded-xl duration-150" href="#">Contacto</a>
-        <a class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white bg-palette-primary hover:bg-palette-primary-h active:bg-palette-primary-l rounded-xl duration-150" href="#">Unirme</a>
+        <a class="block py-3 mb-3 text-xs text-center btn-muted" href="#">Contacto</a>
+        <a class="block mb-2 py-3 text-xs text-center btn-solid" href="#">Unirme</a>
       </div>
       <p class="my-4 text-xs text-center text-gray-400">
         <span>Copyright © <?= date('Y')  ?></span>

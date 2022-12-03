@@ -1,5 +1,35 @@
-@import url('../../fonts/fonts.css');
+@import url("../../fonts/fonts.css");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn-solid {
+    @apply 
+      bg-palette-primary hover:bg-palette-primary-h active:bg-palette-primary-l 
+      text-white 
+      leading-loose 
+      py-1.5 px-6 
+      rounded-full 
+      transition duration-150;
+  }
+
+  .btn-muted {
+    @apply 
+      bg-gray-50 hover:bg-gray-100 active:bg-gray-300 
+      text-gray-500 hover:text-gray-700 
+      leading-loose 
+      py-1.5 px-6 
+      rounded-full 
+      transition duration-150;
+
+  }
+
+  .btn-link {
+    @apply 
+    text-palette-primary hover:text-palette-primary-h active:text-palette-primary-l
+      py-2 px-4
+      transition duration-150;
+  }
+}

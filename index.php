@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="../dist/home.css" rel="stylesheet">
+  <link href="src/css/home.css" rel="stylesheet">
+  <link href="src/css/layout.css" rel="stylesheet">
 </head>
 
 <body class="font-futura bg-palette-light">
@@ -14,10 +15,10 @@
 
   <main>
     <!-- Hero section -->
-    <section id="hero" class="max-h-[884px] min-h-[500px] flex flex-col justify-between bg-gradient-to-t from-palette-primary/30 to-palette-primary/3">
+    <section id="hero" class="min-h-[500px] flex flex-col justify-between bg-gradient-to-t from-palette-primary/30 to-palette-primary/5">
       <div class="container">
         <div class="relative z-0">
-          <svg class="absolute h-[50rem] inset-0 opacity-30 mx-auto" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1028.92 1193.42">
+          <svg class="absolute md:h-[60rem] inset-0 top-[-5rem] md:top-[-13rem] opacity-25 mx-auto" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1028.92 1193.42">
             <path fill="#FFFFFF" d="M888.12,557.57C828.78,446.2,718.96,369.84,594.36,353.29c-18.19-2.43-36.84-3.58-55.39-3.43
                 c-55.59,0.46-109.33,12.49-159.72,35.76c-65.88,30.42-122.12,78.49-162.64,139.03c-41.99,62.74-64.77,135.68-65.88,210.93
                 c-0.35,24.34,1.54,48.74,5.62,72.5c1.57,9.17,9.45,15.53,18.71,15.09c9.35-0.43,16.38-7.26,17.11-16.63
@@ -44,17 +45,56 @@
             <path fill="#FFFFFF" d="M185.84,444.46c53.88,0,97.71-43.84,97.71-97.73s-43.83-97.73-97.71-97.73c-53.89,0-97.73,43.84-97.73,97.73
                 S131.95,444.46,185.84,444.46z" />
           </svg>
-
         </div>
-        <div class="font-altair font-bold text-palette-secundary text-6xl relative z-1 flex items-center">
-          <div class="h-full align-baseline bg-red-600">Deja</div>
-          <img class="z-1 w-10" src="images/web/red-verdes-personas.png" alt="Red de personas">
-          <div>tu huella</div>
+
+        <div class="flex">
+          <div class="relative w-full z-1 p-5 flex flex-col lg:flex-row lg:items-center">
+            <img class="w-11/12 max-w-lg mx-auto z-1 pt-20 lg:order-2" src="src/images/web/red-verdes-personas.png" alt="Red de personas">
+
+            <span class="font-altair font-bold text-palette-secundary text-5xl lg:text-6xl lg:mt-80 lg:order-1">
+              Deja
+            </span>
+            <span class="lg:order-3 lg:mt-52">
+              <span class="font-altair font-bold text-palette-secundary text-5xl lg:text-6xl">
+                tu huella
+              </span>
+
+              <div class="flex lg:flex-col lg:justify-between lg:gap-10 pt-2">
+                <div class="w-3/5 lg:w-[300px] relative order-1 lg:order-2 lg:pl-7">
+                  <p class="opacity-80">Sé parte de la red consciente que contribuye al cambio positivo en el planeta, una comunidad donde juntos somos Redverdes.</p>
+                  <a href="#" class="group inline-block btn-link py-2 lg:float-right">
+                    Unirme
+                    <svg class="group-hover:translate-x-1 duration-150 h-6 inline-block" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 29.36 29.36">
+                      <path class="fill-current" d="M14.68,29.36C6.59,29.36,0,22.78,0,14.68S6.59,0,14.68,0s14.68,6.59,14.68,14.68S22.78,29.36,14.68,29.36z
+                          M14.68,1C7.14,1,1,7.14,1,14.68s6.14,13.68,13.68,13.68c7.54,0,13.68-6.14,13.68-13.68S22.23,1,14.68,1z" />
+                      <path class="fill-current" d="M9.98,14.09h7.35c0.24,0,0.36-0.29,0.19-0.46l-2.24-2.24c-0.23-0.23-0.23-0.6,0-0.83l0,0
+                        c0.23-0.23,0.6-0.23,0.83,0l3.7,3.7c0.23,0.23,0.23,0.6,0,0.83l-3.7,3.7c-0.23,0.23-0.6,0.23-0.83,0h0c-0.23-0.23-0.23-0.6,0-0.83
+                        l2.24-2.24c0.17-0.17,0.05-0.46-0.19-0.46H9.98c-0.32,0-0.59-0.26-0.59-0.59v0C9.39,14.36,9.65,14.09,9.98,14.09z" />
+                    </svg>
+                  </a>
+                </div>
+
+                <div class="w-2/5 order-2 md:order-3 flex justify-end">
+                  <a href="#project-name" class="group h-24 flex justify-end gap-2">
+                    <img class="group-hover:translate-y-3 transition-transform duration-300" src="src/images/web/flecha-larga.png" alt="">
+                    <span class="hidden sm:inline-block pt-1 opacity-70"> Conoce <br> el proyecto</span>
+                  </a>
+                </div>
+              </div>
+            </span>
+          </div>
         </div>
       </div>
+
+      <!-- Heading 1 - Proyect name -->
       <div class="bg-palette-dark/10 z-0">
         <div class="container pt-2 text-center">
-          <h1 class="font-altair font-extrabold text-palette-dark text-5xl pt-10 pb-[200px] uppercase tracking-tight leading-snug">Residuos que cuidan el <span class="pt-2 px-1 text-white bg-palette-blue">agua</span><br class="hidden lg:inline"> y la <span class="pt-2 px-1 text-white bg-palette-primary">biodiversidad</span></h1>
+          <h1 id="project-name" class="font-altair font-extrabold text-palette-dark text-3xl md:text-5xl pt-10 pb-[200px] uppercase tracking-tight">
+            Residuos que cuidan el
+            <span class="pt-2 px-1 text-white bg-palette-blue leading-snug">agua</span><br class="hidden lg:inline">
+            y la
+            <span class="pt-2 px-1 text-white bg-palette-primary">biodiversidad</span>
+          </h1>
         </div>
       </div>
     </section>
