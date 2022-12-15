@@ -66,8 +66,7 @@
     "yaml": "^1.10.2"
   },
   "scripts": {
-    "compile:tw-layout": "npx tailwindcss -i ./src/libs/tailwind/input.css -o ./src/css/layout.css --watch",
-    "compile:tw-home": "npx tailwindcss -i ./src/libs/tailwind/input.css -o ./src/css/home.css --watch"
+    "compile:tw-home": "npx tailwindcss -i ./src/css/tailwind/input.css -o ./src/css/home.css --watch"
   },
   "repository": {
     "type": "git",

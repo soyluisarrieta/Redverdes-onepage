@@ -5,15 +5,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="src/css/home.css" rel="stylesheet">
-  <link href="src/css/layout.css" rel="stylesheet">
 </head>
 
-<body class="font-futura bg-palette-light">
+<body class="font-futura bg-palette-light text-palette-dark">
   <header class="w-screen fixed z-50 bg-palette-light/80">
     <?php include 'components/layout/header.php' ?>
   </header>
 
   <main>
+
     <!-- Hero section -->
     <section id="hero" class="min-h-[500px] flex flex-col justify-between bg-gradient-to-t from-palette-primary/30 to-palette-primary/5">
       <div class="container">
@@ -51,18 +51,18 @@
           <div class="relative w-full z-1 p-5 flex flex-col lg:flex-row lg:items-center">
             <img class="w-11/12 max-w-lg mx-auto z-1 pt-20 lg:order-2" src="src/images/web/red-verdes-personas.png" alt="Red de personas">
 
-            <span class="font-altair font-bold text-palette-secundary text-5xl lg:text-6xl lg:mt-80 lg:order-1">
+            <span class="font-altair font-bold text-palette-secundary text-6xl lg:text-7xl lg:mt-80 lg:order-1">
               Deja
             </span>
             <span class="lg:order-3 lg:mt-52">
-              <span class="font-altair font-bold text-palette-secundary text-5xl lg:text-6xl">
+              <span class="font-altair font-bold text-palette-secundary text-6xl lg:text-7xl">
                 tu huella
               </span>
 
               <div class="flex lg:flex-col lg:justify-between lg:gap-10 pt-2">
                 <div class="w-3/5 lg:w-[300px] relative order-1 lg:order-2 lg:pl-7">
                   <p class="opacity-80">Sé parte de la red consciente que contribuye al cambio positivo en el planeta, una comunidad donde juntos somos Redverdes.</p>
-                  <a href="#" class="group inline-block btn-link py-2 lg:float-right">
+                  <a href="#" class="group inline-block btn-link py-2 px-0 lg:float-right">
                     Unirme
                     <svg class="group-hover:translate-x-1 duration-150 h-6 inline-block" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 29.36 29.36">
                       <path class="fill-current" d="M14.68,29.36C6.59,29.36,0,22.78,0,14.68S6.59,0,14.68,0s14.68,6.59,14.68,14.68S22.78,29.36,14.68,29.36z
@@ -75,7 +75,7 @@
                 </div>
 
                 <div class="w-2/5 order-2 md:order-3 flex justify-end">
-                  <a href="#project-name" class="group h-24 flex justify-end gap-2">
+                  <a href="#project-name" class="group h-20 flex justify-end gap-2">
                     <img class="group-hover:translate-y-3 transition-transform duration-300" src="src/images/web/flecha-larga.png" alt="">
                     <span class="hidden sm:inline-block pt-1 opacity-70"> Conoce <br> el proyecto</span>
                   </a>
@@ -89,7 +89,7 @@
       <!-- Heading 1 - Proyect name -->
       <div class="bg-palette-dark/10 z-0">
         <div class="container pt-2 text-center">
-          <h1 id="project-name" class="font-altair font-extrabold text-palette-dark text-3xl md:text-5xl pt-10 pb-[200px] uppercase tracking-tight">
+          <h1 id="project-name" class="font-altair font-extrabold text-palette-dark text-3xl sm:4xl lg:text-5xl pt-10 pb-[200px] uppercase tracking-tight">
             Residuos que cuidan el
             <span class="pt-2 px-1 text-white bg-palette-blue leading-snug">agua</span><br class="hidden lg:inline">
             y la
@@ -97,6 +97,89 @@
           </h1>
         </div>
       </div>
+    </section>
+
+    <!-- Table most recent -->
+    <section id="most-recent" class="bg-gradient-to-t from-palette-primary/30 to-palette-primary/5 -mt-40 relative">
+      <div class="container">
+        <div class="font-futura font-bold text-palette-dark text-3xl md:text-4xl bg-white relative py-5 md:py-8 text-center rounded-t-xl">Más recientes</div>
+        <div class="overflow-x-auto lg:overflow-visible">
+          <table class="min-w-[800px] w-full mx-auto bg-white rounded-b-xl whitespace-nowrap">
+            <tbody>
+              <tr class="border-t">
+                <td width="100px" class="pl-7 pr-4 py-5">
+                  <div class="w-16 h-16 relative">
+                    <img class="h-full object-contain" src="src/images/medallas/1.png" alt="Medalla de donación de Redverdes">
+
+                    <div class="absolute h-12 -top-5 -right-3">
+                      <div class="w-full h-full flex justify-center items-center relative">
+                        <img class="h-full object-contain" src="src/images/insignias/familia.png" alt="Insignia de categoría de Redverdes">
+                        <div class="w-4/6 h-4/6 group rounded-full absolute cursor-pointer">
+                          <div class="hidden w-72 fixed lg:relative top-1/3 rounded-lg overflow-hidden inset-x-0 mx-auto group-hover:block group-focus:!block bg-palette-dark shadow-lg  shadow-black/30">
+                            <div class="text-center lg:text-left lg:group-hover:flex">
+                              <img class="h-40 lg:h-20 lg:grow-0 mx-auto lg:ml-3 lg:mr-1 object-contain" src="src/images/insignias/familia.png" alt="Insignia de categoría de Redverdes">
+                              <div class="text-white pb-5 lg:p-0 lg:my-auto whitespace-normal">
+                                <small class="text-lg lg:text-sm opacity-50 block">Categoría</small>
+                                <p class="text-2xl lg:text-lg block">Persona o Familiar</p>
+                              </div>
+                            </div>
+                            <img class="w-full h-2 -mb-px" src="src/images/web/colores-decoracion.png" alt="">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+
+                <td width="27%" class="px-2 py-5">
+                  <b class="font-altair font-extrabold block text-xl leading-3">Familia Pepito Pérez</b>
+                  <small class="t text-gray-400">Justo ahora</small>
+                </td>
+
+                <td width="27%" class="px-2 py-5">
+                  <div class="flex">
+                    <p class="w-52 text-palette-dark text-clip -mt-4 overflow-hidden whitespace-nowrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. non alias dicta quisquam sint quos maxime earum minima.Lorem ipsum dolor sit amet consectetur adipisicing elit. non alias dicta quisquam sint quos maxime earum minima.Lorem ipsum dolor sit amet consectetur adipisicing elit. non alias dicta quisquam sint quos maxime earum minima.Lorem ipsum dolor sit amet consectetur adipisicing elit. non alias dicta quisquam sint quos maxime earum minima.Lorem ipsum dolor sit amet consectetur adipisicing elit. non alias dicta quisquam sint quos maxime earum minima.Lorem ipsum dolor sit amet consectetur adipisicing elit. non alias dicta quisquam sint quos maxime earum minima.</p>
+
+                    <div class="h-full ml-2 -mt-4 relative">
+                      <div class="group cursor-pointer">
+                        <button class="btn-link p-0 underline">...</button>
+                        <div class="tooltip hidden w-[96%] lg:w-96 overflow-hidden lg:overflow-visible fixed lg:absolute inset-x-0 top-1/4 lg:left-[-185px] lg:top-7 rounded-lg mx-auto group-hover:block group-focus:!block bg-palette-dark shadow-lg shadow-black/30">
+                          <div class="overflow-hidden rounded-lg">
+                            <div class="w-full p-3 lg:group-hover:flex">
+                              <div class="text-white p-3 pb-5 lg:p-0 lg:my-auto whitespace-normal">
+                                <small class="text-lg lg:text-sm opacity-50 block pb-1">Familia Anónima dice:</small>
+                                <p class="max-h-[150px] overflow-y-auto text-md block leading-tight">Lorem ipsum dolor sit amet consectetur adipisicing elit. non alias dicta quisquam sint quos maxime earum minima.Lorem ipsum dolor sit amet consectetur adipisicing elit. non alias dicta quisquam sint quos maxime earum minima.Lorem ipsum dolor sit amet consectetur adipisicing elit. non alias dicta quisquam sint quos maxime earum minima.Lorem ipsum dolor sit amet consectetur adipisicing elit. non alias dicta quisquam sint quos maxime earum minima.Lorem ipsum dolor sit amet consectetur adipisicing elit. non alias dicta quisquam sint quos maxime earum minima.Lorem ipsum dolor sit amet consectetur adipisicing elit. non alias dicta quisquam sint quos maxime earum minima.</p>
+                              </div>
+                            </div>
+                            <img class="w-full h-2 -mb-px" src="src/images/web/colores-decoracion.png" alt="">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+
+                <td width="15%" class="hidden lg:table-cell px-3 py-5 text-center">
+                  <span class="block -mt-4">12.8kg</span>
+                </td>
+
+                <td class="pl-4 pr-7 py-5 text-center">
+                  <button class="btn-solid w-full min-w-[200px] font-bold relative -mt-4 shadow-lg shadow-palette-primary/50">
+                    90 Huellas
+                    <img class="absolute top-0 opacity-20" src="src/images/web/brillos-decoracion.png" alt="">
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class=""></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about-us" class="bg-palette-dark-h">
+      <div class="h-screen"></div>
     </section>
   </main>
 </body>

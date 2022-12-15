@@ -33,3 +33,16 @@
       transition duration-150;
   }
 }
+
+.tooltip:after {
+  content: '';
+  position: absolute;
+    bottom: 100%;
+    left: 50%;
+  margin-left: -8px;
+  width: 0;
+  height: 0;
+  border-bottom: 8px solid rgb(40 41 61);
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+}
