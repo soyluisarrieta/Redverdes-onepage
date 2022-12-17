@@ -8,7 +8,7 @@
 </head>
 
 <body class="font-futura bg-palette-light text-palette-dark">
-  <header class="w-screen fixed z-40 bg-palette-light/80">
+  <header class="w-screen fixed z-40">
     <?php include 'components/layout/header.php' ?>
   </header>
 
@@ -319,7 +319,7 @@
 
               </tbody>
             </table>
-            <div class="h-52 -mt-52 bg-gradient-to-t from-white via-white/70 to-white/0 sticky inset-x-0 top-0 left-0 z-10 rounded-b-xl pointer-events-none"></div>
+            <div class="h-52 -mt-52 bg-gradient-to-t from-white via-white/70 to-white/0 sticky inset-x-0 top-0 left-0 z-10 rounded-b-xl pointer-events-none select-none"></div>
           </div>
 
           <div class="py-3 text-center">
@@ -369,13 +369,69 @@
       </div>
     </section>
 
-    <section id="situacion-actual" class="n bg-no-repeat bg-cover mt-[-2px] bg-black/70" style="background-image: url(src/images/web/fondo-problematica.png);">
-      <div class="container py-20 text-center text-white">
-        <h2 class="font-altair font-bold text-4xl text-white pb-3">Lorem ipsum dolor</h2>
-        <p class="w-full max-w-xl mx-auto">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <a href="#" class="btn-link p-0 text-palette-primary-h">commodo consequat</a>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
-        </p>
+    <section id="situacion-actual">
+      <div class="bg-no-repeat bg-cover mt-[-2px] bg-black/70 relative z-10" style="background-image: url(src/images/web/fondo-problematica.png);">
+        <div class="container py-20 md:py-32 px-7 text-center text-white">
+          <h2 class="font-altair font-bold text-4xl text-white pb-3">Lorem ipsum dolor</h2>
+          <p class="w-full max-w-xl mx-auto">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea <a href="#" class="btn-link p-0 text-palette-primary-h underline">commodo consequat</a>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
+          </p>
+        </div>
+
+        <div class="w-full h-20 flex items-center">
+          <svg class="w-3/6 h-full" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 371.21 137.64" preserveAspectRatio="none">
+            <polyline fill="#D8DF21" points="0,137.64 0,0.25 371.21,0.25 371.21,137.64 	" />
+            <polyline fill="#8BC53F" points="125,137.64 125,0.25 307.19,0.25 307.19,137.64 	" />
+            <polyline fill="#009145" points="185.06,137.64 185.06,0.25 371.21,0.25 371.21,137.64 	" />
+            <polyline fill="#00A89C" points="264.81,137.39 264.81,0 371.21,0.25 371.21,137.64 	" />
+          </svg>
+          <div class="w-full min-w-[300px] md:min-w-[initial] h-full bg-palette-indigo font-altair font-bold text-xl lg:text-4xl text-center text-white tracking-wide md:whitespace-nowrap flex justify-center items-center pt-3 px-4">Esta situación la podemos cambiar</div>
+          <div class="w-1/6 h-full bg-palette-darkindigo"></div>
+        </div>
       </div>
+
+      <div class="container">
+        <div class="flex flex-col lg:flex-row relative overflow-hidden">
+          <div class="w-full p-16 pb-10 overflow-hiddens lg:order-2">
+            <img class="w-full lg:w-2/3 lg:scale-105 object-contain absolute top-0 right-0 pointer-events-none select-none" src="src/images/web/grafica-cambio-positivo.png" alt="Gráfica del cambio positivo">
+
+            <div class="w-full max-w-[600px] mx-auto bg-white shadow-md rounded-lg relative flex">
+              <div class="w-full h-full p-5 group">
+                <img class="mx-auto object-contain group-hover:translate-y-2 group-hover:saturate-150 transition-all ease-in-out" src="src/images/web/tooltip-usuario.png" alt="">
+                <div class="text-center">
+                  <p class="font-bold text-3xl group-hover:scale-105 transition-transform">1.8M</p>
+                  <p class="text-sm text-gray-400">Donantes</p>
+                </div>
+              </div>
+              <div class="w-2 flex items-center pointer-events-none select-none">
+                <img class="h-4/6 object-contain" src="src/images/web/separador-vertical.png" alt="">
+              </div>
+              <div class="w-full h-full p-5 group">
+                <img class="mx-auto object-contain group-hover:translate-y-2 group-hover:saturate-150 transition-all ease-in-out" src="src/images/web/tooltip-arbol.png" alt="">
+                <div class="text-center">
+                  <p class="font-bold text-3xl group-hover:scale-105 transition-transform">3.7M</p>
+                  <p class="text-sm text-gray-400">Arboles sembrados</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-full lg:py-14 lg:order-1">
+            <div class="max-w-[500px] float-right">
+              <p class="pb-6 pl-4">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
+              </p>
+              <p class="font-altair font-bold text-4xl pl-4">
+                Tú puedes <a href="#" class="btn-link text-palette-primary-h p-0 underline">ser parte</a> <br> del cambio
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="beneficios">
+      <div class="container h-screen"></div>
     </section>
   </main>
 </body>
