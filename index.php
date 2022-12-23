@@ -14,7 +14,6 @@
 
   <main>
     <div class="bg-gradient-to-t from-palette-primary/30 to-palette-primary/0">
-
       <!-- Hero section -->
       <section id="inicio" class="min-h-[500px] flex flex-col justify-between">
         <div class="container relative">
@@ -339,10 +338,9 @@
           </div>
         </div>
       </section>
-
     </div>
 
-    <!-- About Us -->
+    <!-- About Us section -->
     <section id="sobre-nosotros" class="bg-palette-dark-h">
       <div class="container flex flex-col lg:flex-row text-white px-0 lg:px-4">
         <div class="w-full pt-14 px-4">
@@ -369,8 +367,9 @@
       </div>
     </section>
 
+    <!-- Current section -->
     <section id="situacion-actual">
-      <div class="bg-no-repeat bg-cover mt-[-2px] bg-black/70 relative z-10" style="background-image: url(src/images/web/fondo-problematica.png);">
+      <div class="bg-no-repeat bg-cover bg-black/70 relative z-10" style="background-image: url(src/images/web/fondo-problematica.png);">
         <div class="container py-20 md:py-32 px-7 text-center text-white">
           <h2 class="font-altair font-bold text-4xl text-white pb-3">Lorem ipsum dolor</h2>
           <p class="w-full max-w-xl mx-auto">
@@ -385,7 +384,7 @@
             <polyline fill="#009145" points="185.06,137.64 185.06,0.25 371.21,0.25 371.21,137.64 	" />
             <polyline fill="#00A89C" points="264.81,137.39 264.81,0 371.21,0.25 371.21,137.64 	" />
           </svg>
-          <div class="w-full min-w-[300px] md:min-w-[initial] max-w-[800px] h-full bg-palette-indigo font-altair font-bold text-2xl lg:text-4xl text-center text-white tracking-wide md:whitespace-nowrap flex justify-center items-center pt-3 px-4">Esta situación la podemos cambiar</div>
+          <div class="w-full min-w-[300px] shrink-0 md:min-w-[initial] max-w-[800px] h-full bg-palette-indigo font-altair font-bold text-2xl lg:text-4xl text-center text-white tracking-wide md:whitespace-nowrap flex justify-center items-center pt-3 px-4">Esta situación la podemos cambiar</div>
           <div class="w-1/6 h-full bg-palette-darkindigo"></div>
         </div>
       </div>
@@ -417,12 +416,222 @@
             </div>
 
             <div class="w-full max-w-[500px] mx-auto text-center lg:text-left pt-7 lg:py-14 lg:order-1">
-                <p class="pb-6 px-4 lg:pr-0">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
-                </p>
-                <p class="font-altair font-bold text-4xl pl-4 pb-14">
-                  Tú puedes <a href="#" class="btn-link text-palette-primary-h p-0 underline">ser parte</a> <br> del cambio
-                </p>
+              <p class="pb-6 px-4 lg:pr-0">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
+              </p>
+              <p class="font-altair font-bold text-4xl pl-4 pb-14">
+                Tú puedes <a href="#" class="btn-link text-palette-primary-h p-0 underline">ser parte</a> <br> del cambio
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- Benefits section -->
+    <section id="beneficios" class="bg-palette-dark-h -mt-2 py-20 lg:py-24 relative">
+      <div class="container relative z-10">
+        <div class="text-white text-center pb-12">
+          <h2 class="font-altair font-bold text-4xl text-white pb-3">Recibe beneficios</h2>
+          <p class="max-w-xl mx-auto opacity-80">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam como:
+          </p>
+        </div>
+        <div class="group flex flex-col lg:flex-row items-center gap-12">
+          <div class="w-10/12 max-w-lg mt-14 p-7 pt-0 lg:px-10 lg:pb-20 bg-white rounded-xl text-center lg:scale-90 lg:hover:scale-110 transition lg:group-hover:opacity-70 lg:hover:!opacity-100">
+            <img class="w-44 mx-auto -mt-20 object-contain" src="src/images/insignias/empresa.png" alt="Insignia empresarial">
+            <h3 class="font-altair font-extrabold text-3xl pb-3 tracking-normal">Empresa</h3>
+            <p class="text-gray-600 leading-relaxed pb-3">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.
+            </p>
+            <a class="btn-link underline" href="#">Más info...</a>
+          </div>
+
+          <div class="w-10/12 max-w-lg mt-14 p-7 pt-0 lg:px-10 lg:pb-20 bg-white rounded-xl text-center lg:scale-110 lg:hover:!scale-110 lg:group-hover:scale-90 lg:group-hover:opacity-70 lg:hover:!opacity-100 transition">
+            <img class="w-44 mx-auto -mt-20 object-contain" src="src/images/insignias/familia.png" alt="Insignia familiar">
+            <h3 class="font-altair font-extrabold text-3xl pb-3 tracking-normal">Familia</h3>
+            <p class="text-gray-600 leading-relaxed pb-3">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.
+            </p>
+            <a class="btn-link underline" href="#">Más info...</a>
+          </div>
+
+          <div class="w-10/12 max-w-lg mt-14 p-7 pt-0 lg:px-10 lg:pb-20 bg-white rounded-xl text-center lg:scale-90 lg:hover:scale-110 transition lg:group-hover:opacity-70 lg:hover:!opacity-100">
+            <img class="w-44 mx-auto -mt-20 object-contain" src="src/images/insignias/institucion.png" alt="Insignia institucional">
+            <h3 class="font-altair font-extrabold text-3xl pb-3 tracking-normal">institución</h3>
+            <p class="text-gray-600 leading-relaxed pb-3">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.
+            </p>
+            <a class="btn-link underline" href="#">Más info...</a>
+          </div>
+        </div>
+      </div>
+      <div class="w-full absolute bottom-0 h-1/2 bg-palette-dark-l z-0"></div>
+    </section>
+
+    <!-- Steps -->
+    <section class="w-full bg-palette-dark-l pb-60">
+      <div class="text-white text-center">
+        <h2 class="font-altair font-bold text-4xl text-white">¿Cómo puedes dejar tu huella?</h2>
+        <div class="slider w-full h-full cursor-grab active:cursor-grabbing overflow-x-scroll overflow-y-hidden relative">
+          <div class="w-fit flex gap-x-32 lg:gap-x-40 relative z-10 py-14 px-10">
+            <div class="w-full h-full absolute inset-0 pr-16 opacity-90">
+              <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3241.15 370">
+                <circle class="fill-none stroke-white stroke-2" style="stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 11.8643, 11.8643;" cx="61.44" cy="61.44" r="60.44" />
+                <path class="fill-none stroke-white stroke-2" style="stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; stroke-dasharray: 12;" d="M233.51,223.36c15.96,24.79,49.94,69.92,103.41,88.86c73.72,26.11,138.79-13.75,178.81-38.28
+                  c73.14-44.81,63.67-74.57,124.73-114.52c90.73-59.36,211.23-58.83,286.74,10.62c30.06,27.65,70.71,82.51,60.32,113.47
+                  c-4.09,12.2-17.5,24.83-29.92,22.33c-9.89-1.99-18.72-13.5-20.71-25.06c-5.13-29.86,34.26-66.02,56.37-81.27
+                  c12.88-8.88,68.27-44.03,169.83-7.59c101.84,36.54,95.02,92.44,176.66,118.94c94.93,30.81,187.66-17.2,228.36-38.28
+                  c60.05-31.09,67.94-54.62,135.72-84.76c61.31-27.26,117.15-34.15,146.49-36.91c243.26-22.88,427.46,43.75,427.46,43.75
+                  c172.75,62.48,167.22,120.87,322.37,153.11c81.63,16.97,191.31,42.59,264.71-10.94c59-43.02,37.75-95.12,89.98-148.56
+                  c38.83-39.73,115.64-77.51,285.29-44.66" />
+              </svg>
+            </div>
+
+            <!-- Step 1 -->
+            <div class="w-[300px] shrink-0 whitespace-normal inline-block relative mt-16">
+              <img class="w-full px-3 mb-7 object-contain" src="src/images/pasos/1-registrarse.png" alt="Icono Registrarse en Redverdes">
+              <h3 class="font-altair font-bold text-2xl">Registrate</h3>
+              <p class="text-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus veroam suscipit debitis.
+                <a href="#" class="text-palette-primary">aqui</a>
+              </p>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="w-[300px] shrink-0 whitespace-normal inline-block relative">
+              <img class="w-full mb-7 object-contain" src="src/images/pasos/2-visita.png" alt="Icono Registrarse en Redverdes">
+              <h3 class="font-altair font-bold text-2xl">Te visitamos</h3>
+              <p class="text-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus veroam suscipit debitis.
+                <a href="#" class="text-palette-primary">aqui</a>
+              </p>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="w-[300px] shrink-0 whitespace-normal inline-block relative mt-20">
+              <h3 class="font-altair font-bold text-2xl">Recicla</h3>
+              <p class="text-sm mb-7">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus veroam suscipit debitis.
+                <a href="#" class="text-palette-primary">aqui</a>
+              </p>
+              <img class="w-full object-contain" src="src/images/pasos/3-recicla.png" alt="Icono Registrarse en Redverdes">
+            </div>
+
+            <!-- Step 4 -->
+            <div class="w-[300px] shrink-0 whitespace-normal inline-block relative mt-28">
+              <img class="w-full mb-7 object-contain" src="src/images/pasos/4-llamamos.png" alt="Icono Registrarse en Redverdes">
+              <h3 class="font-altair font-bold text-2xl">Llámanos</h3>
+              <p class="text-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus veroam suscipit debitis.
+                <a href="#" class="text-palette-primary">aqui</a>
+              </p>
+            </div>
+
+            <!-- Step 5 -->
+            <div class="w-[300px] shrink-0 whitespace-normal inline-block relative mt-10">
+              <img class="w-full mb-7 object-contain" src="src/images/pasos/5-calendario.png" alt="Icono Registrarse en Redverdes">
+              <h3 class="font-altair font-bold text-2xl">Programación</h3>
+              <p class="text-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus veroam suscipit debitis.
+                <a href="#" class="text-palette-primary">aqui</a>
+              </p>
+            </div>
+
+            <!-- Step 6 -->
+            <div class="w-[300px] shrink-0 whitespace-normal inline-block relative mt-24">
+              <h3 class="font-altair font-bold text-2xl">Registro y recolección</h3>
+              <p class="text-sm mb-7">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus veroam suscipit debitis.
+                <a href="#" class="text-palette-primary">aqui</a>
+              </p>
+              <img class="w-full object-contain" src="src/images/pasos/6-recoleccion.png" alt="Icono Registrarse en Redverdes">
+            </div>
+
+            <!-- Step 7 -->
+            <div class="w-[300px] shrink-0 whitespace-normal inline-block relative mt-16">
+              <img class="w-full mb-7 object-contain" src="src/images/pasos/7-mitigacion.png" alt="Icono Registrarse en Redverdes">
+              <h3 class="font-altair font-bold text-2xl">Mitíga tu huella</h3>
+              <p class="text-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus veroam suscipit debitis.
+                <a href="#" class="text-palette-primary">aqui</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonies section -->
+    <section id="testimonios">
+      <div class="container px-6 p-12 lg:pt-0 lg:-mt-60 mx-auto">
+        <div class="grid items-center gap-4 lg:grid-cols-5">
+          <div class="max-w-2xl mx-auto my-8 space-y-4 text-center lg:col-span-2 lg:text-left">
+            <h2 class="font-altair text-3xl font-extrabold">Lo que dicen nuestros clientes sobre nosotros</h2>
+            <p class="text-gray-400">Pri ex magna scaevola moderatius. Nullam accommodare no vix, est ei diceret alienum, et sit cetero malorum. Et sea iudico consequat, est sanctus adipisci ex.</p>
+          </div>
+
+          <div class="p-6 lg:col-span-3 xl:-mr-28">
+            <div class="grid gap-4 md:grid-cols-2">
+              <div class="grid content-center gap-4">
+                <!-- Testinomy #1 -->
+                <div class="p-6 rounded shadow-2xl shadow-palette-lightblue/20 bg-white">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
+                  </p>
+                  <div class="flex items-center mt-4 space-x-4">
+                    <img src="https://source.unsplash.com/50x50/?portrait?1" alt="" class="w-12 h-12 bg-center bg-cover rounded-full bg-gray-500">
+                    <div>
+                      <p class="text-lg font-semibold">Rolan Arteaga</p>
+                      <p class="text-sm text-gray-400">Ingeniero Civil</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Testinomy #2 -->
+                <div class="p-6 rounded shadow-2xl shadow-palette-lightblue/20 bg-white">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
+                  </p>
+                  <div class="flex items-center mt-4 space-x-4">
+                    <img src="https://source.unsplash.com/50x50/?portrait?2" alt="" class="w-12 h-12 bg-center bg-cover rounded-full bg-gray-500">
+                    <div>
+                      <p class="text-lg font-semibold">Pepito Pérez</p>
+                      <p class="text-sm text-gray-400">Abogado</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="grid content-center gap-4">
+                <!-- Testinomy #3 -->
+                <div class="p-6 rounded shadow-2xl shadow-palette-lightblue/20 bg-white">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
+                  </p>
+                  <div class="flex items-center mt-4 space-x-4">
+                    <img src="https://source.unsplash.com/50x50/?portrait?3" alt="" class="w-12 h-12 bg-center bg-cover rounded-full bg-gray-500">
+                    <div>
+                      <p class="text-lg font-semibold">Jessica Pistala</p>
+                      <p class="text-sm text-gray-400">CEO Paylus Estudio</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Testinomy #4 -->
+                <div class="p-6 rounded shadow-2xl shadow-palette-lightblue/20 bg-white">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud.
+                  </p>
+                  <div class="flex items-center mt-4 space-x-4">
+                    <img src="https://source.unsplash.com/50x50/?portrait?4" alt="" class="w-12 h-12 bg-center bg-cover rounded-full bg-gray-500">
+                    <div>
+                      <p class="text-lg font-semibold">Oscar Valencia</p>
+                      <p class="text-sm text-gray-400">Gerente Agrocultivos</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -430,14 +639,140 @@
       </div>
     </section>
 
-    <section id="beneficios" class="bg-palette-dark-h -mt-2">
-      <div class="container h-screen"></div>
+    <!-- Sponsors section -->
+    <section id="apoyan" class="bg-[#EBEEF2] py-[200px] -my-[200px]">
+      <div class="container pb-20 -mt-10">
+        <h2 class="font-altair text-center font-bold text-2xl opacity-70 pb-3">Con el apoyo de:</h2>
+        <div class="flex flex-wrap justify-center gap-x-7 gap-y-5 lg:gap-y-7">
+          <img class="w-1/5 min-w-[200px] md:min-w-[auto] object-contain opacity-50 hover:opacity-100 transition-opacity" title="Proyecto Redverdes" src="src/images/apoyo/redverdes.png" alt="Logo de Redverdes">
+          <img class="w-1/5 min-w-[200px] md:min-w-[auto] object-contain opacity-50 hover:opacity-100 transition-opacity" title="Fundación Mayunka" src="src/images/apoyo/fundacion-mayunka.png" alt="Logo de Redverdes">
+          <img class="w-1/5 min-w-[200px] md:min-w-[auto] object-contain opacity-50 hover:opacity-100 transition-opacity" title="Proyecto Redverdes" src="src/images/apoyo/redverdes.png" alt="Logo de Redverdes">
+          <img class="w-1/5 min-w-[200px] md:min-w-[auto] object-contain opacity-50 hover:opacity-100 transition-opacity" title="Fundación Mayunka" src="src/images/apoyo/fundacion-mayunka.png" alt="Logo de Redverdes">
+          <img class="w-1/5 min-w-[200px] md:min-w-[auto] object-contain opacity-50 hover:opacity-100 transition-opacity" title="Proyecto Redverdes" src="src/images/apoyo/redverdes.png" alt="Logo de Redverdes">
+          <img class="w-1/5 min-w-[200px] md:min-w-[auto] object-contain opacity-50 hover:opacity-100 transition-opacity" title="Fundación Mayunka" src="src/images/apoyo/fundacion-mayunka.png" alt="Logo de Redverdes">
+          <img class="w-1/5 min-w-[200px] md:min-w-[auto] object-contain opacity-50 hover:opacity-100 transition-opacity" title="Proyecto Redverdes" src="src/images/apoyo/redverdes.png" alt="Logo de Redverdes">
+        </div>
+      </div>
     </section>
 
-    <section id="apoyan">
-      <div class="container h-screen"></div>
+    <!-- Call to action section -->
+    <section id="cta" class="px-4">
+      <div class="container bg-palette-dark-l text-gray-50 flex flex-col items-center justify-center p-4 py-7 space-y-3 md:pt-14 md:pb-20 md:px-24 rounded-2xl overflow-hidden relative">
+        <h2 class="text-3xl lg:text-4xl font-extrabold lead text-center">Únete a nuestra red de personas comprometidas con el medio ambiente</h2>
+        <p class="text-lg font-medium text-center leading-tight">Tu donación nos ayudará a cuidar nuestro planeta y a hacer una gran diferencia. Haz tu donación hoy mismo y forma parte de nuestro esfuerzo por un mundo más limpio y verde.</p>
+        <div class="flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:space-x-8 pt-7">
+          <a class="btn-solid px-8 py-3 text-lg font-semibold rounded-full" href="#">¡Me apunto!</a>
+          <a class="px-8 py-3 text-lg font-normal border rounded-full hover:bg-white hover:text-gray-700 transition-colors duration-100" href="#contacto">Más información</a>
+        </div>
+        <img class="w-full absolute -bottom-px object-contain" src="src/images/web/colores-decoracion.png" alt="">
+      </div>
     </section>
+
+    <!-- Contact section -->
+    <section id="contacto">
+      <div class="flex justify-center items-center">
+        <div class="container mx-auto py-14 flex flex-col lg:flex-row">
+
+          <!-- Form contact -->
+          <div class="w-full py-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto">
+            <div class="flex">
+              <h2 class="font-altair font-bold text-4xl">Envíanos un mensaje</h2>
+            </div>
+
+            <form>
+              <div class="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">
+                <input class="w-full bg-[#EBEEF2] text-gray-900 mt-2 py-3 px-7 rounded-full focus:outline-none focus:shadow-outline" type="text" placeholder="Nombre*" />
+                <input class="w-full bg-[#EBEEF2] text-gray-900 mt-2 py-3 px-7 rounded-full focus:outline-none focus:shadow-outline" type="text" placeholder="Apellido*" />
+              </div>
+              <input class="w-full mt-6 bg-[#EBEEF2] text-gray-900 py-3 px-7 rounded-full focus:outline-none focus:shadow-outline" type="email" placeholder="Correo electrónico*" />
+              <div class="my-4">
+                <textarea placeholder="Message*" class="w-full min-h-[100px] bg-[#EBEEF2] text-gray-900 mt-2 py-3 px-7 rounded-2xl focus:outline-none focus:shadow-outline"></textarea>
+              </div>
+
+              <div class="text-center lg:text-left my-2">
+                <button class="btn-solid px-6 py-2 pt-3 font-altair text-lg font-semibold rounded-full" type="submit">Enviar mensaje</button>
+              </div>
+            </form>
+          </div>
+
+          <!-- Info contact -->
+          <div class="w-full lg:w-2/6 pb-12 pt-3 ml-auto rounded-2xl">
+            <div class="flex lg:flex-col justify-around relative">
+              <div class="w-1/2 lg:w-full px-4">
+                <h3 class="font-altair font-extrabold text-3xl my-4">Estamos disponibles</h3>
+                <p class="text-sm md:text-md text-gray-500">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.
+                </p>
+              </div>
+
+              <div class="w-1 h flex items-center pointer-events-none select-none lg:absolute -left-16">
+                <img class="h-full object-contain" src="src/images/web/separador-vertical.png" alt="">
+              </div>
+
+              <div class="pl-4 lg:mt-7">
+                <h4 class="font-altair font-bold text-2xl my-4 lg:my-3">Contáctanos</h4>
+                <div class="text-sm md:text-md text-gray-500">
+                  <address class="not-italic">+57 123456789 <span class="hidden md:inline">-</span><br class="md:hidden"> +57 123456789</address>
+                  <address class="not-italic">ejemplo@redverdes.com</address>
+                  <address class="not-italic">Cll. 123 Cra. 123</address>
+                  <address class="not-italic">Ipiales, Colombia.</address>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
+
+  <!-- WhatsApp Button -->
+  <div class="flex items-end justify-end fixed bottom-0 right-0 mb-4 mr-2 z-30">
+    <a title="Escríbenos" href="#" target="_blank" class="block w-16 h-16 rounded-full transition-all shadow-lg shadow-black/20 transform hover:scale-110 hover:rotate-12">
+      <div class="w-full h-full rounded-full bg-green-500 flex justify-center items-center">
+        <svg class="object-contain w-7/12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.13 18.13">
+          <path class="fill-white" d="M18,6.82A8.91,8.91,0,0,0,12.23.4,8.41,8.41,0,0,0,10.08,0H8.22c-.35.1-.71.05-1.06.13A8.86,8.86,0,0,0,3,2.35,8.8,8.8,0,0,0,1.2,12.83a1.18,1.18,0,0,1,.06,1C.84,15.12.33,16.38,0,17.71c0,.22-.08.5.32.4a9.94,9.94,0,0,0,1.08-.25c1.09-.35,2.18-.68,3.26-1a.84.84,0,0,1,.66,0,8.49,8.49,0,0,0,5.28.78,8.83,8.83,0,0,0,6.62-4.73,7.57,7.57,0,0,0,.9-3v-2C18,7.54,18.08,7.17,18,6.82ZM9.86,16.15a7.46,7.46,0,0,1-4.52-1A.63.63,0,0,0,4.72,15c-.73.24-1.47.46-2.27.7.26-.76.48-1.45.73-2.13A.61.61,0,0,0,3.1,13,7.35,7.35,0,0,1,7.84,1.59a7.47,7.47,0,0,1,8.7,5.94A7.38,7.38,0,0,1,9.86,16.15Z" />
+          <path class="fill-white" d="M11.36,13.05a7.27,7.27,0,0,1-3.83-1.71A10.87,10.87,0,0,1,5.28,8.63a3.15,3.15,0,0,1-.36-2.69A1.82,1.82,0,0,1,6.81,4.68a.63.63,0,0,1,.55.41c.25.59.51,1.17.74,1.77.15.36-.11.63-.31.89-.37.5-.38.5,0,1A6.47,6.47,0,0,0,10.1,10.6a.31.31,0,0,0,.46-.11c.13-.18.29-.35.43-.53.34-.43.45-.47.95-.24s1.06.5,1.59.75a.57.57,0,0,1,.34.58C13.86,12.22,12.93,13.06,11.36,13.05Z" />
+        </svg>
+      </div>
+    </a>
+  </div>
+
+  <footer class="bg-palette-dark-l/5 relative overflow-hidden">
+    <?php include 'components/layout/footer.php' ?>
+  </footer>
+
+  <script>
+    const slider = document.querySelector(".slider");
+    let isDragging = false;
+    let currentX;
+    let initialX;
+    let xOffset = 0;
+
+    slider.addEventListener("mousedown", dragStart);
+    slider.addEventListener("mouseup", dragEnd);
+    slider.addEventListener("mousemove", drag);
+
+    function dragStart(e) {
+      initialX = e.clientX;
+      xOffset = slider.scrollLeft;
+
+      isDragging = true;
+    }
+
+    function dragEnd(e) {
+      isDragging = false;
+    }
+
+    function drag(e) {
+      if (isDragging) {
+        e.preventDefault();
+        currentX = e.clientX;
+
+        slider.scrollLeft = xOffset - currentX + initialX;
+      }
+    }
+  </script>
 </body>
 
 </html>

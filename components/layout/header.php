@@ -1,5 +1,5 @@
 <!-- Desktop menu -->
-<div class="bg-palette-light/50 border-b-2 border-white/30 backdrop-blur">
+<div class="bg-palette-light/70 border-b-2 border-white/30 backdrop-blur">
   <div class="container">
     <nav class="font-altair relative md:px-8 px-4 py-4 flex justify-between items-center">
       <ul class="hidden text-xs lg:flex lg:items-center lg:w-auto lg:space-x-6 uppercase text-center">
