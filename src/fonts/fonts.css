@@ -38,7 +38,16 @@
 @font-face {
   font-family: 'Font-Futura';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-display: swap;
   src: url(../fonts/Futura-Heavy-font.ttf);
+}
+
+/* Futura ExtraBold */
+@font-face {
+  font-family: 'Font-Futura';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/Futura-Semibold.ttf);
 }

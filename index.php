@@ -8,6 +8,7 @@
 </head>
 
 <body class="font-futura bg-palette-light text-palette-dark">
+  <!-- Header -->
   <header class="w-screen fixed z-40">
     <?php include 'components/layout/header.php' ?>
   </header>
@@ -738,10 +739,43 @@
     </a>
   </div>
 
+  <!-- Footer -->
   <footer class="bg-palette-dark-l/5 relative overflow-hidden">
     <?php include 'components/layout/footer.php' ?>
   </footer>
 
+  <!-- Modal News -->
+  <div class="w-screen h-screen bg-black/20 backdrop-blur fixed z-50 inset-0 overflow-hidden">
+    <div class="container h-full flex justify-center items-center">
+       <div class="w-11/12 max-w-2xl bg-palette-light rounded-2xl shadow-md relative overflow-hidden">
+        <div class="absolute top-4 right-5">
+          <button class="btn-link text-gray-500 text-lg p-0" title="Ocultar">&times;</button>
+        </div>
+        <div class="h-full min-h-[500px] flex flex-col md:flex-row justify-center">
+          <img class="w-2/6 bg-palette-dark-l object-cover" src="https://picsum.photos/500/1000" alt="Imagen del modal">
+          <div class="w-4/6 py-20 px-10 flex flex-col justify-center">
+            <p class="text-4xl font-bold mb-3 leading-tight">Titulo largo de la noticia</p>
+            <img class="w-32 h-1 mb-5 rounded-full overflow-hidden" src="src/images/web/colores-decoracion.png" alt="">
+            <p class="leading-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos aperiam qui quos dolore sint, maxime nisi possimus voluptatibus nostrum dolorum, vel praesentium ad commodi iure autem expedita molestias molestiae officia!</p>
+            <div class="pt-5">
+              <a class="btn-solid" href="#">Más información</a>
+              <a class="btn-muted" href="#">No, gracias</a>
+            </div>
+          </div>
+        </div>
+
+        <img class="w-full h-3 -mb-px -mt-px" src="src/images/web/colores-decoracion.png" alt="">
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal News -->
+  <script>
+    
+  </script>
+
+  <!-- Slider steps-section -->
   <script>
     const slider = document.querySelector(".slider");
     let isDragging = false;
