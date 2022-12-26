@@ -745,11 +745,11 @@
   </footer>
 
   <!-- Modal News -->
-  <div class="w-screen h-screen bg-black/20 backdrop-blur fixed z-50 inset-0 overflow-hidden">
+  <div id="modal-news" class="w-screen h-screen bg-black/20 backdrop-blur fixed z-50 inset-0 overflow-hidden">
     <div class="container h-full flex justify-center items-center">
        <div class="w-11/12 max-w-2xl bg-palette-light rounded-2xl shadow-md relative overflow-hidden">
         <div class="absolute top-4 right-5">
-          <button class="btn-link text-gray-500 text-lg p-0" title="Ocultar">&times;</button>
+          <button data-close class="btn-link text-gray-500 text-lg p-0" title="Ocultar">&times;</button>
         </div>
         <div class="h-full min-h-[500px] flex flex-col md:flex-row justify-center">
           <img class="w-2/6 bg-palette-dark-l object-cover" src="https://picsum.photos/500/1000" alt="Imagen del modal">
@@ -759,12 +759,12 @@
             <p class="leading-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos aperiam qui quos dolore sint, maxime nisi possimus voluptatibus nostrum dolorum, vel praesentium ad commodi iure autem expedita molestias molestiae officia!</p>
             <div class="pt-5">
               <a class="btn-solid" href="#">Más información</a>
-              <a class="btn-muted" href="#">No, gracias</a>
+              <a data-cancel class="btn-muted" href="#">No, gracias</a>
             </div>
           </div>
         </div>
 
-        <img class="w-full h-3 -mb-px -mt-px" src="src/images/web/colores-decoracion.png" alt="">
+        <img class="w-full h-3 -mb-px -mt-px select-none pointer-events-none" src="src/images/web/colores-decoracion.png" alt="">
       </div>
     </div>
   </div>
@@ -772,6 +772,16 @@
 
   <!-- Modal News -->
   <script>
+    const modal = {
+      element: document.getElementById('modal-news'),
+      close: document.querySelector('#modal-news [data-close]'),
+      cancel: document.querySelector('#modal-news [data-cancel]')
+    }
+
+    modal.close.addEventListener("click", cerrarModal)
+    modal.cancel.addEventListener("click", cerrarModal)
+
+    function cerrarModal() { modal.element.classList.add("hidden") }
     
   </script>
 
