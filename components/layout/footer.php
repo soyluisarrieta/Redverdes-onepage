@@ -1,34 +1,46 @@
+<!-- WhatsApp Button -->
+<div class="flex items-end justify-end fixed bottom-0 right-0 mb-4 mr-2 z-30">
+  <a title="Escríbenos" href="#" target="_blank" class="block w-16 h-16 rounded-full transition-all shadow-lg shadow-black/20 transform hover:scale-110 hover:rotate-12">
+    <div class="w-full h-full rounded-full bg-green-500 flex justify-center items-center">
+      <svg class="object-contain w-7/12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.13 18.13">
+        <path class="fill-white" d="M18,6.82A8.91,8.91,0,0,0,12.23.4,8.41,8.41,0,0,0,10.08,0H8.22c-.35.1-.71.05-1.06.13A8.86,8.86,0,0,0,3,2.35,8.8,8.8,0,0,0,1.2,12.83a1.18,1.18,0,0,1,.06,1C.84,15.12.33,16.38,0,17.71c0,.22-.08.5.32.4a9.94,9.94,0,0,0,1.08-.25c1.09-.35,2.18-.68,3.26-1a.84.84,0,0,1,.66,0,8.49,8.49,0,0,0,5.28.78,8.83,8.83,0,0,0,6.62-4.73,7.57,7.57,0,0,0,.9-3v-2C18,7.54,18.08,7.17,18,6.82ZM9.86,16.15a7.46,7.46,0,0,1-4.52-1A.63.63,0,0,0,4.72,15c-.73.24-1.47.46-2.27.7.26-.76.48-1.45.73-2.13A.61.61,0,0,0,3.1,13,7.35,7.35,0,0,1,7.84,1.59a7.47,7.47,0,0,1,8.7,5.94A7.38,7.38,0,0,1,9.86,16.15Z" />
+        <path class="fill-white" d="M11.36,13.05a7.27,7.27,0,0,1-3.83-1.71A10.87,10.87,0,0,1,5.28,8.63a3.15,3.15,0,0,1-.36-2.69A1.82,1.82,0,0,1,6.81,4.68a.63.63,0,0,1,.55.41c.25.59.51,1.17.74,1.77.15.36-.11.63-.31.89-.37.5-.38.5,0,1A6.47,6.47,0,0,0,10.1,10.6a.31.31,0,0,0,.46-.11c.13-.18.29-.35.43-.53.34-.43.45-.47.95-.24s1.06.5,1.59.75a.57.57,0,0,1,.34.58C13.86,12.22,12.93,13.06,11.36,13.05Z" />
+      </svg>
+    </div>
+  </a>
+</div>
+
 <div class="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
-  <img class="w-36 mx-auto mt-7" src="src/images/logos/redverdes-sombreado.png" alt="Logo del proyecto Redverdes">
-  
+  <img class="w-36 mx-auto mt-7" src="<?=$back?>src/images/logos/redverdes-sombreado.png" alt="Logo del proyecto Redverdes">
+
   <nav class="flex flex-wrap justify-center -mx-5 -my-2 text-palette-dark ">
     <div class="px-5 py-2">
-      <a href="#" class="text-base leading-6 text-gray-600 hover:text-palette-primary-h active:text-palette-primary-l">
+      <a href="#inicio" class="text-base leading-6 text-gray-600 hover:text-palette-primary-h active:text-palette-primary-l">
         Inicio
       </a>
     </div>
     <div class="px-5 py-2">
-      <a href="#" class="text-base leading-6 text-gray-600 hover:text-palette-primary-h active:text-palette-primary-l">
+      <a href="#sobre-nosotros" class="text-base leading-6 text-gray-600 hover:text-palette-primary-h active:text-palette-primary-l">
         Conocenos
       </a>
     </div>
     <div class="px-5 py-2">
-      <a href="#" class="text-base leading-6 text-gray-600 hover:text-palette-primary-h active:text-palette-primary-l">
+      <a href="#situacion-actual" class="text-base leading-6 text-gray-600 hover:text-palette-primary-h active:text-palette-primary-l">
         Situación actual
       </a>
     </div>
     <div class="px-5 py-2">
-      <a href="#" class="text-base leading-6 text-gray-600 hover:text-palette-primary-h active:text-palette-primary-l">
+      <a href="#apoyan" class="text-base leading-6 text-gray-600 hover:text-palette-primary-h active:text-palette-primary-l">
         Apoyan
       </a>
     </div>
     <div class="px-5 py-2">
-      <a href="#" class="text-base leading-6 text-gray-600 hover:text-palette-primary-h active:text-palette-primary-l">
+      <a href="#beneficios" class="text-base leading-6 text-gray-600 hover:text-palette-primary-h active:text-palette-primary-l">
         Beneficios
       </a>
     </div>
     <div class="px-5 py-2">
-      <a href="#" class="text-base leading-6 text-gray-600 hover:text-palette-primary-h active:text-palette-primary-l">
+      <a href="#contacto" class="text-base leading-6 text-gray-600 hover:text-palette-primary-h active:text-palette-primary-l">
         Contacto
       </a>
     </div>

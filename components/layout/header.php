@@ -1,23 +1,25 @@
+<?php $back = isset($isHome) ? './' : '../' ?>
+
 <!-- Desktop menu -->
 <div class="bg-palette-light/70 border-b-2 border-white/30 backdrop-blur">
   <div class="container">
     <nav class="font-altair relative md:px-8 px-4 py-4 flex justify-between items-center">
       <ul class="hidden text-xs lg:flex lg:items-center lg:w-auto lg:space-x-6 uppercase text-center">
         <li>
-          <a class="text-gray-500 hover:text-palette-primary" href="#">Inicio</a>
+          <a class="text-gray-500 hover:text-palette-primary" href="#inicio">Inicio</a>
         </li>
         <li>
-          <a class="text-gray-500 hover:text-palette-primary" href="#">Conocenos</a>
+          <a class="text-gray-500 hover:text-palette-primary" href="#sobre-nosotros">Conocenos</a>
         </li>
         <li>
-          <a class="text-gray-500 hover:text-palette-primary" href="#">Situación actual</a>
+          <a class="text-gray-500 hover:text-palette-primary" href="#situacion-actual">Situación actual</a>
         </li>
         <li>
-          <a class="text-gray-500 hover:text-palette-primary" href="#">Apoyan</a>
+          <a class="text-gray-500 hover:text-palette-primary" href="#apoyan">Apoyan</a>
         </li>
       </ul>
 
-      <a class="text-3xl leading-none" href="#">
+      <a class="text-3xl leading-none" href="#inicio">
         <svg class="h-10" alt="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 263.35 52">
           <path fill="#125151" d="M76.3,39.56c-0.02-0.03-0.05-0.06-0.09-0.07c-0.03-0.02-0.08-0.02-0.11,0c-0.25,0.15-0.53,0.26-0.81,0.33
           c-0.29,0.09-0.59,0.13-0.89,0.14c-0.63,0.01-1.25-0.18-1.76-0.56c-0.56-0.45-1.03-1-1.38-1.62c-0.52-0.91-0.98-1.85-1.39-2.82
@@ -181,13 +183,13 @@
 
       <ul class="hidden text-xs lg:flex lg:items-center lg:w-auto lg:space-x-6 uppercase">
         <li>
-          <a class="text-gray-500 hover:text-palette-primary" href="#">Beneficios</a>
+          <a class="text-gray-500 hover:text-palette-primary" href="#beneficios">Beneficios</a>
         </li>
         <li>
-          <a class="text-gray-500 hover:text-palette-primary" href="#">Contacto</a>
+          <a class="text-gray-500 hover:text-palette-primary" href="#contacto">Contacto</a>
         </li>
         <li>
-          <a class="hidden lg:inline-block btn-solid" href="#">Unirme</a>
+          <a class="hidden lg:inline-block btn-solid" href="<?=$back?>unirme">Unirme</a>
         </li>
       </ul>
     </nav>
@@ -199,7 +201,6 @@
   <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
   <nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto">
     <div class="flex items-center mb-8">
-      <a class="text-3xl leading-none" href="#"> </a>
       <button class="navbar-close">
         <svg class="h-10" alt="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 263.35 52">
           <path fill="#125151" d="M76.3,39.56c-0.02-0.03-0.05-0.06-0.09-0.07c-0.03-0.02-0.08-0.02-0.11,0c-0.25,0.15-0.53,0.26-0.81,0.33
@@ -357,27 +358,27 @@
     <div>
       <ul>
         <li class="mb-1">
-          <a class="block p-4 text-sm text-gray-500 hover:bg-palette-primary/5 hover:text-palette-primary-h active:text-palette-primary-l rounded" href="#">Inicio</a>
+          <a class="block p-4 text-sm text-gray-500 hover:bg-palette-primary/5 hover:text-palette-primary-h active:text-palette-primary-l rounded" href="#inicio">Inicio</a>
         </li>
         <li class="mb-1">
-          <a class="block p-4 text-sm text-gray-500 hover:bg-palette-primary/5 hover:text-palette-primary-h active:text-palette-primary-l rounded" href="#">Conocenos</a>
+          <a class="block p-4 text-sm text-gray-500 hover:bg-palette-primary/5 hover:text-palette-primary-h active:text-palette-primary-l rounded" href="#sobre-nosotros">Conocenos</a>
         </li>
         <li class="mb-1">
-          <a class="block p-4 text-sm text-gray-500 hover:bg-palette-primary/5 hover:text-palette-primary-h active:text-palette-primary-l rounded" href="#">Situación actual</a>
+          <a class="block p-4 text-sm text-gray-500 hover:bg-palette-primary/5 hover:text-palette-primary-h active:text-palette-primary-l rounded" href="#situacion-actual">Situación actual</a>
         </li>
         <li class="mb-1">
-          <a class="block p-4 text-sm text-gray-500 hover:bg-palette-primary/5 hover:text-palette-primary-h active:text-palette-primary-l rounded" href="#">Apoyan</a>
+          <a class="block p-4 text-sm text-gray-500 hover:bg-palette-primary/5 hover:text-palette-primary-h active:text-palette-primary-l rounded" href="#apoyan">Apoyan</a>
         </li>
         <li class="mb-1">
-          <a class="block p-4 text-sm text-gray-500 hover:bg-palette-primary/5 hover:text-palette-primary-h active:text-palette-primary-l rounded" href="#">Beneficios</a>
+          <a class="block p-4 text-sm text-gray-500 hover:bg-palette-primary/5 hover:text-palette-primary-h active:text-palette-primary-l rounded" href="#beneficios">Beneficios</a>
         </li>
       </ul>
     </div>
 
     <div class="mt-auto">
       <div class="pt-6 uppercase tracking-wider">
-        <a class="block py-3 mb-3 text-xs text-center btn-muted" href="#">Contacto</a>
-        <a class="block mb-2 py-3 text-xs text-center btn-solid" href="#">Unirme</a>
+        <a class="block py-3 mb-3 text-xs text-center btn-muted" href="#contacto">Contacto</a>
+        <a class="block mb-2 py-3 text-xs text-center btn-solid" href="<?=$back?>unirme">Unirme</a>
       </div>
       <p class="my-4 text-xs text-center text-gray-400">
         <span>Copyright © <?= date('Y')  ?></span>

@@ -1,3 +1,5 @@
+<?php $isHome=true ?>
+
 <!doctype html>
 <html>
 
@@ -177,7 +179,6 @@
                   </td>
                 </tr>
 
-
                 <tr class="border-t border-gray-100 hover:bg-gray-100 transition-colors duration-300">
                   <td width="100px" class="pl-7 pr-4 py-5">
                     <div class="w-16 h-16 relative">
@@ -246,7 +247,6 @@
                     </button>
                   </td>
                 </tr>
-
 
                 <tr class="border-t border-gray-100 hover:bg-gray-100 transition-colors duration-300">
                   <td width="100px" class="pl-7 pr-4 py-5">
@@ -326,7 +326,7 @@
             <div class="block mt-3">
               <a href="#" class="btn-solid font-altair font-bold tracking-wider py-3 px-7 mx-auto">Mi Huella</a>
             </div>
-            <a href="#" class="group -mt-9 mr-4 inline-block btn-link py-2 px-0 float-right">
+            <a href="huellas" class="group -mt-9 mr-4 inline-block btn-link py-2 px-0 float-right">
               Mostrar todas
               <svg class="group-hover:translate-x-1 duration-150 h-6 inline-block" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 29.36 29.36">
                 <path class="fill-current" d="M14.68,29.36C6.59,29.36,0,22.78,0,14.68S6.59,0,14.68,0s14.68,6.59,14.68,14.68S22.78,29.36,14.68,29.36z
@@ -460,7 +460,7 @@
 
           <div class="w-10/12 max-w-lg mt-14 p-7 pt-0 lg:px-10 lg:pb-20 bg-white rounded-xl text-center lg:scale-90 lg:hover:scale-110 transition lg:group-hover:opacity-70 lg:hover:!opacity-100">
             <img class="w-44 mx-auto -mt-20 object-contain" src="src/images/insignias/institucion.png" alt="Insignia institucional">
-            <h3 class="font-altair font-extrabold text-3xl pb-3 tracking-normal">institución</h3>
+            <h3 class="font-altair font-extrabold text-3xl pb-3 tracking-normal">Institución</h3>
             <p class="text-gray-600 leading-relaxed pb-3">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.
             </p>
@@ -727,46 +727,38 @@
 
   </main>
 
-  <!-- WhatsApp Button -->
-  <div class="flex items-end justify-end fixed bottom-0 right-0 mb-4 mr-2 z-30">
-    <a title="Escríbenos" href="#" target="_blank" class="block w-16 h-16 rounded-full transition-all shadow-lg shadow-black/20 transform hover:scale-110 hover:rotate-12">
-      <div class="w-full h-full rounded-full bg-green-500 flex justify-center items-center">
-        <svg class="object-contain w-7/12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.13 18.13">
-          <path class="fill-white" d="M18,6.82A8.91,8.91,0,0,0,12.23.4,8.41,8.41,0,0,0,10.08,0H8.22c-.35.1-.71.05-1.06.13A8.86,8.86,0,0,0,3,2.35,8.8,8.8,0,0,0,1.2,12.83a1.18,1.18,0,0,1,.06,1C.84,15.12.33,16.38,0,17.71c0,.22-.08.5.32.4a9.94,9.94,0,0,0,1.08-.25c1.09-.35,2.18-.68,3.26-1a.84.84,0,0,1,.66,0,8.49,8.49,0,0,0,5.28.78,8.83,8.83,0,0,0,6.62-4.73,7.57,7.57,0,0,0,.9-3v-2C18,7.54,18.08,7.17,18,6.82ZM9.86,16.15a7.46,7.46,0,0,1-4.52-1A.63.63,0,0,0,4.72,15c-.73.24-1.47.46-2.27.7.26-.76.48-1.45.73-2.13A.61.61,0,0,0,3.1,13,7.35,7.35,0,0,1,7.84,1.59a7.47,7.47,0,0,1,8.7,5.94A7.38,7.38,0,0,1,9.86,16.15Z" />
-          <path class="fill-white" d="M11.36,13.05a7.27,7.27,0,0,1-3.83-1.71A10.87,10.87,0,0,1,5.28,8.63a3.15,3.15,0,0,1-.36-2.69A1.82,1.82,0,0,1,6.81,4.68a.63.63,0,0,1,.55.41c.25.59.51,1.17.74,1.77.15.36-.11.63-.31.89-.37.5-.38.5,0,1A6.47,6.47,0,0,0,10.1,10.6a.31.31,0,0,0,.46-.11c.13-.18.29-.35.43-.53.34-.43.45-.47.95-.24s1.06.5,1.59.75a.57.57,0,0,1,.34.58C13.86,12.22,12.93,13.06,11.36,13.05Z" />
-        </svg>
-      </div>
-    </a>
-  </div>
-
   <!-- Footer -->
   <footer class="bg-palette-dark-l/5 relative overflow-hidden">
     <?php include 'components/layout/footer.php' ?>
   </footer>
 
   <!-- Modal News -->
-  <div id="modal-news" class="w-screen h-screen bg-black/20 backdrop-blur fixed z-50 inset-0 overflow-hidden">
-    <div class="container h-full flex justify-center items-center">
-       <div class="w-11/12 max-w-2xl bg-palette-light rounded-2xl shadow-md relative overflow-hidden">
+  <div id="modal-news" class="w-screen h-screen max-h-full fixed z-50 inset-0 overflow-hidden">
+    <div class="w-screen h-screen fixed bg-black/20 backdrop-blur overflow-hidden"></div>
+    <div class="container h-full flex justify-center items-center relative">
+      <div class="w-full max-w-[800px] h-full max-h-[500px] bg-white flex flex-col md:flex-row rounded-lg overflow-hidden md:relative">
+
         <div class="absolute top-4 right-5">
-          <button data-close class="btn-link text-gray-500 text-lg p-0" title="Ocultar">&times;</button>
-        </div>
-        <div class="h-full min-h-[500px] flex flex-col md:flex-row justify-center">
-          <img class="w-2/6 bg-palette-dark-l object-cover" src="https://picsum.photos/500/1000" alt="Imagen del modal">
-          <div class="w-4/6 py-20 px-10 flex flex-col justify-center">
-            <p class="text-4xl font-bold mb-3 leading-tight">Titulo largo de la noticia</p>
-            <img class="w-32 h-1 mb-5 rounded-full overflow-hidden" src="src/images/web/colores-decoracion.png" alt="">
-            <p class="leading-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos aperiam qui quos dolore sint, maxime nisi possimus voluptatibus nostrum dolorum, vel praesentium ad commodi iure autem expedita molestias molestiae officia!</p>
-            <div class="pt-5">
-              <a class="btn-solid" href="#">Más información</a>
-              <a data-cancel class="btn-muted" href="#">No, gracias</a>
-            </div>
-          </div>
+          <button data-close class="btn-link text-gray-700 md:text-gray-500 text-lg p-0" title="Ocultar">&times;</button>
         </div>
 
-        <img class="w-full h-3 -mb-px -mt-px select-none pointer-events-none" src="src/images/web/colores-decoracion.png" alt="">
+        <div class="w-full md:w-1/2 h-52 md:h-full shrink-0">
+          <img class="w-full h-full object-cover" src="https://picsum.photos/1000/1000" alt="Imagen">
+        </div>
+
+        <div class="w-full md:w-1/2 py-10 md:py-20 px-5 md:px-10 flex flex-col justify-center shrink-0">
+          <p class="text-3xl md:text-4xl font-bold mb-3">Titulo largo de la noticia</p>
+          <img class="w-32 h-1 mb-5 rounded-full overflow-hidden" src="src/images/web/colores-decoracion.png" alt="">
+          <p class="text-sm md:text-base leading-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos aperiam qui quos dolore sint, maxime nisi possimus voluptatibus nostrum dolorum, vel praesentium ad commodi iure autem expedita molestias molestiae officia!</p>
+          <div class="pt-5">
+            <a class="btn-solid" href="#">Más información</a>
+            <a data-cancel class="btn-muted" href="#">No, gracias</a>
+          </div>
+        </div>
+        <img class="w-full h-3 -mb-px -mt-px select-none pointer-events-none absolute -bottom-1" src="src/images/web/colores-decoracion.png" alt="">
       </div>
     </div>
+  </div>
   </div>
 
 
@@ -781,8 +773,9 @@
     modal.close.addEventListener("click", cerrarModal)
     modal.cancel.addEventListener("click", cerrarModal)
 
-    function cerrarModal() { modal.element.classList.add("hidden") }
-    
+    function cerrarModal() {
+      modal.element.classList.add("hidden")
+    }
   </script>
 
   <!-- Slider steps-section -->

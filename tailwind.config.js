@@ -1,6 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.{html,js,php}","./components/**/*.{html,js,php}"],
+  content: [
+    "./components/layout/header.php",
+    "./components/layout/footer.php",
+
+    // "./index.php",
+    // "./huellas/index.php",
+    "./admin/index.php",
+  ],
   theme: {
 
     // Container

@@ -35,6 +35,10 @@
 }
 
 /* Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
 ::-webkit-scrollbar {
   background-color: none;
   width: 9px;
