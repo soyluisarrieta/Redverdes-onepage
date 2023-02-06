@@ -68,7 +68,9 @@
   "scripts": {
     "compile:tw-home": "npx tailwindcss -i ./src/css/tailwind/input.css -o ./src/css/home.css --watch",
     "compile:tw-foot": "npx tailwindcss -i ./src/css/tailwind/input.css -o ./src/css/footprint.css --watch",
-    "compile:tw-login": "npx tailwindcss -i ./src/css/tailwind/input.css -o ./src/css/login.css --watch"
+    "compile:tw-login": "npx tailwindcss -i ./src/css/tailwind/input.css -o ./src/css/login.css --watch",
+
+    "compile:tw-admin": "npx tailwindcss -i ./src/css/tailwind/input-admin.css -o ./admin/src/css/tailwind.css --watch"
   },
   "repository": {
     "type": "git",

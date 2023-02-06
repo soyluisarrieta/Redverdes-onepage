@@ -1,0 +1,102 @@
+/* Paylus Estudio - Customs */
+:root {
+  /* Fonts */
+  --tblr-font-sans-serif: "Inter";
+
+  /* Global Colors */
+  --pe-primary-color: #009145;
+  --pe-primary-color-rgb: 0, 145, 69;
+  --pe-primary-color-h: #00b74a;
+  --pe-primary-color-h-rgb: 0, 183, 74;
+  --pe-primary-color-l: #007f35;
+  --pe-primary-color-l-rgb: 0, 127, 53;
+
+  --pe-dark: #2d3046;
+  --pe-dark-rgb: 45, 48, 70;
+  --pe-dark-h: #26283c;
+  --pe-dark-h-rgb: 38, 40, 60;
+  --pe-dark-l: #414460;
+  --pe-dark-l-rgb: 65, 68, 96;
+}
+
+/* Border global */
+.theme-dark .input-group .btn,
+.navbar-dark,
+.theme-dark .navbar,
+.theme-dark .card,
+.theme-dark .form-control,
+.theme-dark .input-group-flat .input-group-text,
+.theme-dark .popover {
+  border-color: var(--pe-dark-l);
+}
+
+/* Background global */
+.theme-dark .card,
+.navbar-dark,
+.theme-dark .navbar,
+.theme-dark .popover {
+  background-color: var(--pe-dark);
+}
+.theme-dark .form-select,
+.theme-dark .form-file-text,
+.theme-dark .form-selectgroup-check,
+.theme-dark .form-help {
+  background-color: var(--pe-dark-l);
+}
+
+.theme-dark .form-control,
+.theme-dark .form-check-input:not(:checked),
+.theme-dark .input-group-flat .input-group-text {
+  background-color: var(--pe-dark-h);
+}
+
+/* Theme Dark */
+.theme-dark {
+  background-color: var(--pe-dark-h);
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: inset 0 calc(-1 * var(--tblr-navbar-border-width)) 0 0 var(--pe-dark-l);
+  padding-bottom: 0;
+}
+
+.navbar-expand-md .nav-item.active {
+  border-bottom: 2px solid var(--pe-primary-color);
+  margin-bottom: -2px;
+}
+.navbar-expand-md .nav-item.active span, 
+.navbar-expand-md .nav-item.active svg {
+  color: var(--pe-primary-color-h);
+}
+
+/* Form elements */
+.theme-dark .card-footer {
+  background-color: rgba(var(--pe-dark-h-rgb), 0.2);
+}
+
+.theme-dark .form-check-input:not(:checked),
+.theme-dark .form-select,
+.theme-dark .form-file-text,
+.theme-dark .form-selectgroup-check {
+  border-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Buttons */
+.theme-dark .input-group .btn {
+  --tblr-btn-border-color: var(--pe-dark-l);
+}
+
+/* Popover */
+.theme-dark .bs-popover-top > .popover-arrow::before,
+.theme-dark
+  .bs-popover-auto[data-popper-placement^="top"]
+  > .popover-arrow::before {
+  border-top-color: var(--pe-dark-l);
+}
+.theme-dark .bs-popover-top > .popover-arrow::after,
+.theme-dark
+  .bs-popover-auto[data-popper-placement^="top"]
+  > .popover-arrow::after {
+  border-top-color: var(--pe-dark);
+}

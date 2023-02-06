@@ -1,0 +1,87 @@
+@import url("../../fonts/fonts-admin.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-solid {
+    @apply 
+      bg-palette-primary hover:bg-palette-primary-h active:bg-palette-primary-l 
+      text-white 
+      leading-loose 
+      py-1.5 px-6 
+      rounded-full 
+      transition duration-150;
+  }
+
+  .btn-muted {
+    @apply 
+      bg-gray-50 hover:bg-gray-100 active:bg-gray-300 
+      text-gray-500 hover:text-gray-700 
+      leading-loose 
+      py-1.5 px-6 
+      rounded-full 
+      transition duration-150;
+
+  }
+
+  .btn-link {
+    @apply 
+    text-palette-primary hover:text-palette-primary-h active:text-palette-primary-l
+      py-2 px-4
+      transition duration-150;
+  }
+}
+
+/* Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  background-color: none;
+  width: 9px;
+  height: 9px;
+  border-radius: 100%;
+}
+
+body::-webkit-scrollbar {
+  width: 11px;
+  background-color: #F7F9F8;
+}
+
+::-webkit-scrollbar-track {
+  background-color: none;
+  pointer-events: none;
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(27, 30, 53, 0.9);
+  border-radius: 16px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(27, 30, 53, 0.7);
+}
+::-webkit-scrollbar-thumb:active {
+  background-color: #009145;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+/* Tooltip */
+.tooltip:after {
+  content: '';
+  position: absolute;
+    bottom: 100%;
+    left: 50%;
+  margin-left: -8px;
+  width: 0;
+  height: 0;
+  border-bottom: 8px solid rgb(40 41 61);
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+}

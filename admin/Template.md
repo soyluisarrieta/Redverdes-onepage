@@ -1,18 +1,21 @@
+## Template Layout `HTML` + `PHP`
+
+```html
 <!DOCTYPE html>
 <html lang="es">
 
 <head>
-  <title>Dashboard</title>
-  <?php require_once '../src/layout/head.php' ?>
+  <title>Titulo</title>
+  <?php require_once 'src/layout/head.php' ?>
 </head>
 
 <body>
   <!-- Change Light/Dark mode -->
-  <script src="../src/js/theme.min.js"></script>
+  <script src="src/js/theme.min.js"></script>
 
   <div class="page">
     <!-- Navbar -->
-    <?php require_once '../src/layout/header.php' ?>
+    <?php require_once 'src/layout/header.php' ?>
 
     <div class="page-wrapper">
       <!-- Page header -->
@@ -64,13 +67,14 @@
         <div class="container-xl">
 
           <!-- CONTENIDO AQUI -->
-          
+
         </div>
       </div>
 
-      <?php require_once '../src/layout/footer.php' ?>
+      <?php require_once 'src/layout/footer.php' ?>
     </div>
   </div>
 
-  <?php require_once '../src/layout/scripts.php' ?>
+  <?php require_once 'src/layout/scripts.php' ?>
 </body>
+```
